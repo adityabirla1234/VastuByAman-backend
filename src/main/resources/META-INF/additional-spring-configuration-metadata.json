@@ -1,0 +1,97 @@
+{"properties": [
+  {
+    "name": "app.storage.base-dir",
+    "type": "java.lang.String",
+    "description": "A description for 'app.storage.base-dir'"
+  },
+  {
+    "name": "app.storage.max-file-size-bytes",
+    "type": "java.lang.String",
+    "description": "A description for 'app.storage.max-file-size-bytes'"
+  },
+  {
+    "name": "telegram.bot.token",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.bot.token'"
+  },
+  {
+    "name": "telegram.bot.chat-id",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.bot.chat-id'"
+  },
+  {
+    "name": "telegram.retry.max-attempts",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.retry.max-attempts'"
+  },
+  {
+    "name": "telegram.retry.initial-delay-ms",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.retry.initial-delay-ms'"
+  },
+  {
+    "name": "telegram.retry.multiplier",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.retry.multiplier'"
+  },
+  {
+    "name": "telegram.retry.max-delay-ms",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.retry.max-delay-ms'"
+  },
+  {
+    "name": "telegram.queue.capacity",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.queue.capacity'"
+  },
+  {
+    "name": "telegram.queue.workers",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.queue.workers'"
+  },
+  {
+    "name": "telegram.queue.send-delay-ms",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.queue.send-delay-ms'"
+  },
+  {
+    "name": "telegram.queue.retry-base-delay-ms",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.queue.retry-base-delay-ms'"
+  },
+  {
+    "name": "telegram.queue.retry-max-delay-ms",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.queue.retry-max-delay-ms'"
+  },
+  {
+    "name": "telegram.queue.dlq-capacity",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.queue.dlq-capacity'"
+  },
+  {
+    "name": "telegram.store.max-sent-records",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.store.max-sent-records'"
+  },
+  {
+    "name": "telegram.store.sent-ttl-hours",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.store.sent-ttl-hours'"
+  },
+  {
+    "name": "app.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'app.cors.allowed-origins'"
+  },
+  {
+    "name": "telegram.chat.id",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.chat.id'"
+  },
+  {
+    "name": "telegram.bot.chat.id",
+    "type": "java.lang.String",
+    "description": "A description for 'telegram.bot.chat.id'"
+  }
+]}
