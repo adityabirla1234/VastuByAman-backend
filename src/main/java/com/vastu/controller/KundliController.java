@@ -25,7 +25,7 @@ public class KundliController {
     private final KundliService kundliService;
 
     @PostMapping(
-        value = "/kundli-check",
+        value = "/kundali-check",
         consumes = MediaType.APPLICATION_JSON_VALUE,
         produces = MediaType.APPLICATION_JSON_VALUE
     )
