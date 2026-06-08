@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: vastubyaman-backend
+    env: java
+    plan: free
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -Xmx400m -jar target/*.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
