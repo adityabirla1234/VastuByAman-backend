@@ -1,10 +1,9 @@
 services:
   - type: web
     name: vastubyaman-backend
-    env: java
+    env: docker
     plan: free
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -Xmx400m -jar target/*.jar
+    dockerfilePath: ./Dockerfile
     envVars:
-      - key: JAVA_VERSION
-        value: 21
+      - key: PORT
+        value: 8080
